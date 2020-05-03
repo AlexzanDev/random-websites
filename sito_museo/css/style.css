@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 41px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 2px 2px rgba(38,38,38,.1);
+}
+
+.header-container {
+    width: 1040px;
+    margin: auto;
+    height: 100%;
+}
+
+.header-logo {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+.header-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-navigation-menu {
+    float: right;
+}
+
+.menu-elements {
+    display: flex;
+}
+
+.menu-links {
+    display: flex;
+}
+
+.menu-elements ul {
+    list-style: none;
+}
+
+.menu-elements a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-links-content {
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+}
+
+.main-content {
+    background-image: url("../img/prism.png");
+}
+
+.main-page {
+    width: 1040px;
+    margin: auto;
+    background: white;
+}
+
+.main-article-home {
+    position: relative;
+}
+
+.main-article-hmpg {
+    height: 613px;
+}
+
+.main-article-text {
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+}
+
+.main-article-title {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+    text-shadow: 2px 3px 15px black;
+    font-weight: bold;
+}
+
+.main-article-description {
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-weight: bold;
+    padding-top: 10px;
+    border-top: 3px solid white;
+}
+
+.museum-tabs-home-row-1 {
+    display: flex;
+}
+
+.museum-tabs-home-all {
+    margin-top: 30px;
+}
+
+.museum-tabs-home {
+    width: 215px;
+    flex: 0 1 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.museum-tabs-home img {
+    width: 100%;
+}
+
+.museum-tabs-home h3 p {
+    word-wrap: break-word;
+}
+
+.museum-tabs-home-text {
+    padding-top: 5px;
+}
+
+.youtube-videos-home {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.youtube-video-home {
+    flex: 0 1 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.useful-info-home {
+    margin-top: 30px;
+    height: 300px;
+}
+
+.useful-info-row {
+    display: flex;
+    height: 100%;
+}
+
+.museum-info {
+    flex: 0 1 33.33%;
+    background: cadetblue;
+}
+
+.museum-info-text {
+    padding: 20px;
+}
+
+.museum-info-text p {
+    padding-top: 10px;
+    line-height: 1.3em;
+}
+
+.contact-tab-text {
+    padding: 20px;
+}
+
+.contact-tab-text p {
+    padding-top: 10px;
+    line-height: 1.3em;
+}
+
+.contact-tab-home {
+    flex: 0 1 33.33%;
+    background: darkorange;
+}
+
+.google-maps-embed-home {
+    flex: 0 1 33.33%;
+}
+
+.footer {
+    background: gray;
+}
+
+.logo-footer {
+    text-align: center;
+}
+
+.logo-footer img {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.footer-row {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.footer-row p {
+    color: white;
+}
+
+.page-content {
+    padding: 30px;
+}
+
+.page-content h1, .page-content h3, .page-content p {
+    padding-bottom: 0.5em;
+}
+
+.page-content {
+    font-size: 18px;
+    line-height: 1.3em;
+    /* padding: 10px; */
+}
+
+.page-content a {
+    color: darkcyan;
+}
+
+.page-content ul {
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+}
