@@ -10,11 +10,13 @@ a {
 h1 {
     font-size: 41px;
     font-weight: 600;
+    font-family: 'Lato', 'sans-serif';
 }
 
 h3 {
     font-size: 23px;
     font-weight: 600;
+    font-family: 'Lato', 'sans-serif';
 }
 
 #header {
