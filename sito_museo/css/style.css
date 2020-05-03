@@ -238,3 +238,17 @@ h3 {
     line-height: 1.3em;
     padding-bottom: 10px;
 }
+
+b {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-opere {
+    text-align: center;
+    width: 50%;
+}
